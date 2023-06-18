@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="container">
+      <div id="todo-page">
+        <div class="wrapper">
+          <h1  id="loggedInUser"></h1>
+          <h2>Todo List📌📑</h2>
+          <div class="row">
+            <input type="text" id="taskInput" placeholder="Enter a task" />
+            <button onclick="addTask()" id="btn-1">Add</button>
+          </div>
+          <ul id="list-items">
+            <!-- <li class="checked">
+              task one
+            </li>
+            <li >
+              task two
+            </li>
+            <li>
+              task three
+            </li> -->
+          </ul>
+          <button onclick="logout()" id="btn-2">Logout</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+    <script>
+      // Retrieve the username from localStorage
+      var username = localStorage.getItem("username");
+
+      // Update the welcome message
+      var welcomeMsg = document.getElementById("loggedInUser");
+      var greeting = "Welcome, ";
+      welcomeMsg.textContent = greeting + username + "  🙋‍♂️";
+
+      // get data from local storage
+  
+
+    </script>
+</body>
+</html>

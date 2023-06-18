@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sign In</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/bf7308bc7b.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <div id="login-page" class="center">
+        <h1>Sign In</h1>
+        <form>
+          <div class="input-group">
+            <div class="input-field">
+              <i class="fa-solid fa-user"></i>
+              <input
+                type="text"
+                id="username"
+                placeholder="Username"
+                required
+              />
+            </div>
+            <div class="input-field">
+              <i class="fa-solid fa-lock"></i>
+              <input
+                type="password"
+                id="password"
+                placeholder="Password"
+                required
+              />
+            </div>
+            <p>Lost password?? <a href="">click here</a></p>
+          </div>
+          <div class="btn-field">
+            <button type="button" onclick="login()" >
+              Sign In
+            </button>
+          </div>
+        </form>
+      </div>
+    <script src="app.js"></script>
+  </body>
+</html>
