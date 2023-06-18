@@ -14,7 +14,7 @@ The Todo List Web App is a simple and intuitive application that helps you keep 
 - HTML5, CSS3, and JavaScript: Front-end development languages for creating the user interface and interactivity.
 
 
-##Usage
+## Usage
 1. Register a new account or log in if you already have one.
 2. Once logged in, you'll see your todo list.
 3. Click the "Add Task" button to create a new task and fill in the necessary details.
